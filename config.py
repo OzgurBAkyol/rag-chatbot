@@ -1,8 +1,8 @@
 # config.py
-PDF_PATH = "data/franz-kafka-donusum-tr.pdf"
+TXT_PATH = "data/franz_kafka.txt"
 
 # Hugging Face model adı
-MODEL_NAME = "meta-llama/Llama-3.2-1B"
+MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Hugging Face API token'ınızı burada saklayın
 HF_TOKEN = "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"
