@@ -7,7 +7,7 @@ def main():
     print("TXT embedding'leri oluşturuluyor...")
     faiss_index, text_chunks = create_txt_embeddings(TXT_PATH)
 
-    user_query = input("Gregor Samsa neden işe gitmek istemiyor?\n> ")
+    user_query = input("Why doesn't Gregor Samsa want to go to work?\n> ")
 
     print("\nNormal LLM Cevabı:")
     llm_response = get_answer_from_llm(user_query)
