@@ -4,7 +4,6 @@ from config import TXT_PATH
 
 
 def main():
-    print("TXT embedding'leri oluşturuluyor...")
     faiss_index, text_chunks = create_txt_embeddings(TXT_PATH)
 
     user_query = input("Why doesn't Gregor Samsa want to go to work?\n> ")
