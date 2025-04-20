@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 
 # Embedding modelini yükleyin
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('meta-llama/Llama-3.2-1B')
 
 def create_embeddings(text):
     sentences = text.split('\n')  # Metni satırlara ayıralım (veya istediğiniz gibi bölebilirsiniz)
